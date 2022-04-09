@@ -18,7 +18,7 @@ const Home = () => {
                  You are at right place so make sure to evaluate your needs before downloading.
                
               </h4>
-              <Link to="/record" className="home-btn">Record Your screen</Link>
+              <Link to="/record" className="home-btn">Get Started</Link>
             </div>
           </div>
           <div className="col-md-6 col-sm-12">
