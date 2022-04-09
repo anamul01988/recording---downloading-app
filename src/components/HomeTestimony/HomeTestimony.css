@@ -1,0 +1,16 @@
+.testimony-btn{
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    border: 2px solid orangered;
+    transition: .3s;
+    font-weight: 500;
+    font-size:17px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.testimony-btn:hover{
+    background: yellow;
+    color: black;
+
+}

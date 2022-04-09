@@ -1,8 +1,11 @@
 import React from "react";
 import "./Home.css";
 import img from '../assets/screen-recording.jpg'
+import HomeTestimony from "../HomeTestimony/HomeTestimony";
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
+ <>
     <div className="container-fluid home mt-2">
       <div className="container  ">
         <div className="row">
@@ -10,12 +13,11 @@ const Home = () => {
             <div className="home-content py-5">
               <h2>Recording Screen & Download it.</h2>
               <h3>
-                {" "}
                 Record the screen on your display <br /> <span>
                   Or
                 </span> <br /> macOS laptop in one easy step.
               </h3>
-              <button className="home-btn">Record Your screen</button>
+              <Link to="/testimony" className="home-btn">Record Your screen</Link>
             </div>
           </div>
           <div className="col-md-6 col-sm-12">
@@ -24,6 +26,8 @@ const Home = () => {
         </div>
       </div>
     </div>
+    <HomeTestimony/>
+ </>
   );
 };
 

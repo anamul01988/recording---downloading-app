@@ -1,0 +1,9 @@
+.testimony-card{
+    height: 300px;
+}
+.user-details img{
+    
+    width: 100px;
+    height: auto; 
+    /* border-radius: 50%; */
+}
