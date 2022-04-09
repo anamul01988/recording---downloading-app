@@ -8,7 +8,7 @@ const HomeTestimony = () => {
     const [testimony] = useTestimony();
     return (
         <div className='my-5 container'>
-        <h3 className='my-4 text-center'>Recent Testimony({testimony?.slice(0,3).length})</h3>
+        <h3 className='my-4 text-center'>Recent Testimonial</h3>
         <div className="row ">
             <div className="col-md-12 col-sm-12">
                <div className="row">

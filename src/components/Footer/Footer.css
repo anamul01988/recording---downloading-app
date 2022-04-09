@@ -1,0 +1,27 @@
+.footer{
+    background-color: black;
+}
+.footer-content{
+    display : flex;
+    justify-content: space-between;
+}
+.footer-content p{
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.footer span{
+    color: orange;
+}
+.footer .icons{
+    color: orange;
+
+}
+.icon{
+ 
+     /* padding : 20px 20px; */
+     color: orange;
+     margin-right: 15px;
+     font-size: 24px;
+   
+}

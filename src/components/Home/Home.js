@@ -3,6 +3,7 @@ import "./Home.css";
 import img from '../assets/screen-recording.jpg'
 import HomeTestimony from "../HomeTestimony/HomeTestimony";
 import { Link } from "react-router-dom";
+import WorkingProcedure from "../WorkingProcedure/WorkingProcedure";
 const Home = () => {
   return (
  <>
@@ -11,13 +12,13 @@ const Home = () => {
         <div className="row">
           <div className="col-md-6 col-sm-12">
             <div className="home-content py-5">
-              <h2>Recording Screen & Download it.</h2>
-              <h3>
-                Record the screen on your display <br /> <span>
-                  Or
-                </span> <br /> macOS laptop in one easy step.
-              </h3>
-              <Link to="/testimony" className="home-btn">Record Your screen</Link>
+              <h3>Screen <span>Record & Download</span> </h3>
+              <h4>
+                 Thinking about screen recording? <br />
+                 You are at right place so make sure to evaluate your needs before downloading.
+               
+              </h4>
+              <Link to="/record" className="home-btn">Record Your screen</Link>
             </div>
           </div>
           <div className="col-md-6 col-sm-12">
@@ -27,6 +28,8 @@ const Home = () => {
       </div>
     </div>
     <HomeTestimony/>
+    <WorkingProcedure/>
+  
  </>
   );
 };

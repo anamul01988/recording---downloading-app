@@ -1,13 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import './Header.css';
+import logo from '../assets/logo.png';
 const Header = () => {
   return (
     <div className="container mt-2">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          <NavLink to="/navbar" className={({ isActive }) => (isActive ? "active-link" : "link" )}>
-            Navbar
+          <NavLink to="/navbar" >
+              <img className="logo link" src={logo} alt="logo"  /> 
+             
           </NavLink>
           <button
             className="navbar-toggler"
@@ -29,16 +31,11 @@ const Header = () => {
               </li>
             
               <li className="nav-item">
-                <NavLink to="/about" className={({ isActive }) => (isActive ? "active-link" : "link" )}>About</NavLink>
+                <NavLink to="/record" className={({ isActive }) => (isActive ? "active-link" : "link" )}>Record App</NavLink>
               </li>
+   
               <li className="nav-item">
-                <NavLink to="/record" className={({ isActive }) => (isActive ? "active-link" : "link" )}>Record-App</NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink to="/feature" className={({ isActive }) => (isActive ? "active-link" : "link" )}> Feature</NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink to="/testimony" className={({ isActive }) => (isActive ? "active-link" : "link" )}>Testimony</NavLink>
+                <NavLink to="/testimony" className={({ isActive }) => (isActive ? "active-link" : "link" )}>Testimonial</NavLink>
               </li>
             </ul>
            

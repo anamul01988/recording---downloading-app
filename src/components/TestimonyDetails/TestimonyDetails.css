@@ -1,9 +1,23 @@
 .testimony-card{
-    height: 300px;
+    height: 350px;
 }
 .user-details img{
     
     width: 100px;
     height: auto; 
     /* border-radius: 50%; */
+}
+.user-details h5{
+    line-height: 28px;
+}
+.user-name{
+    padding-top:20px;
+    color: green;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+}
+.user-profession{
+    color: #545353;
+    font-size: 17px;
 }

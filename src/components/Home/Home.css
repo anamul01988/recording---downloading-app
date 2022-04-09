@@ -23,16 +23,17 @@
 .home-content{
     color: white;
 }
-.home-content h2{
+.home-content h4{
     color: rgb(170, 162, 162);
     font-size: 22px;
-    letter-spacing: 2px;
-    line-height: 28px;
+    letter-spacing: 1px;
+    line-height: 35px;
+    margin-bottom: 30px;
 }
 .home-content h3{
     font-size: 36px;
     line-height: 48px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .home-content h3 span{
     color: orangered;
@@ -45,10 +46,12 @@
     padding: 10px 20px;
     border: 2px solid orangered;
     transition: .3s;
+    font-family: 'Poppins',sans-serif;
     font-weight: 500;
     font-size:17px;
     letter-spacing: 1px;
     text-decoration: none;
+    font-weight: 600;
 }
 .home-btn:hover{
     background: yellow;

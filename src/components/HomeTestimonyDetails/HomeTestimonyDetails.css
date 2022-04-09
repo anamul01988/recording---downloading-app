@@ -1,0 +1,14 @@
+.user-name{
+    padding-top:20px;
+    color: green;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.user-details h5{
+    line-height: 28px;
+}
+.user-profession{
+    color: #545353;
+    font-size: 17px;
+}

@@ -6,6 +6,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import RecordApp from "./components/RecordApp/RecordApp";
 import Testimony from "./components/Testimony/Testimony";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/testimony" element={<Testimony />} />
 
       </Routes>
+      <Footer/>
     </div>
   );
 }

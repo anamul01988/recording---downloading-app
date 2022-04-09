@@ -8,7 +8,7 @@ const Testimony = () => {
     console.log(testimony)
     return (
         <div className='my-5 container'>
-             <h3 className='my-4'> All Recent Testimonials: </h3>
+             <h3 className='my-4'> All Testimonials: </h3>
              <div className="row ">
                  <div className="col-md-12 col-sm-12">
                     <div className="row">  
