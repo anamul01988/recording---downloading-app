@@ -1,0 +1,57 @@
+.home{
+     background-image: url('../assets/slide-1.jpg') ;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     height: auto;
+     position: relative;
+     z-index: 1;
+}
+.home:after{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: .7;
+    z-index: -1;
+    
+}
+.home-content{
+    color: white;
+}
+.home-content h2{
+    color: rgb(170, 162, 162);
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 28px;
+}
+.home-content h3{
+    font-size: 36px;
+    line-height: 48px;
+}
+.home-content h3 span{
+    color: orangered;
+    text-align: center;
+    margin-left:auto;
+}
+.home-btn{
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    border: 2px solid orangered;
+    transition: .3s;
+    font-weight: 500;
+    font-size:17px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    text-align: center;
+}
+.home-btn:hover{
+    background: yellow;
+    color: black;
+
+}

@@ -1,0 +1,31 @@
+.logo{
+    font-weight: 600;
+}
+.link {
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+    transition: color ease-in-out 300ms;
+  }
+  
+  .link:hover {
+    color: orange;
+  }
+  
+  .active-link {
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 24px;
+    font-weight: 500;
+    transition: color ease-in-out 300ms;
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+  }
+  .active-link:hover{
+      color: orange;
+      transition: ease all .3s;
+  }
+  

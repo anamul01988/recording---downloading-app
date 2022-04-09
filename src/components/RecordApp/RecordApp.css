@@ -1,0 +1,17 @@
+.record-content button{
+    background-color: aquamarine;
+    color: #000;
+    padding: 10px 16px;
+    transition: .3s;
+}
+.record-content button:hover{
+    background-color: yellow;
+    color: #000;
+    transition: .3s;
+}
+.record-app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

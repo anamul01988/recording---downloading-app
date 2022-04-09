@@ -1,14 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
+import { NavLink } from "react-router-dom";
+import './Header.css';
 const Header = () => {
   return (
-    <div className="container">
+    <div className="container mt-2">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          <Link to="/navbar" className="navbar-brand">
+          <NavLink to="/navbar" className={({ isActive }) => (isActive ? "active-link" : "link" )}>
             Navbar
-          </Link>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -23,19 +23,22 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link to="/" className="nav-link active" aria-current="page" >
+                <NavLink to="/" className={({ isActive }) => (isActive ? "active-link" : "link" )} aria-current="page" >
                   Home
-                </Link>
+                </NavLink>
               </li>
             
               <li className="nav-item">
-                <Link to="/about" className="nav-link">About</Link>
+                <NavLink to="/about" className={({ isActive }) => (isActive ? "active-link" : "link" )}>About</NavLink>
               </li>
               <li className="nav-item">
-                <Link to="/feature" className="nav-link">Feature</Link>
+                <NavLink to="/record" className={({ isActive }) => (isActive ? "active-link" : "link" )}>Record-App</NavLink>
               </li>
               <li className="nav-item">
-                <Link to="/testimony" className="nav-link">Testimony</Link>
+                <NavLink to="/feature" className={({ isActive }) => (isActive ? "active-link" : "link" )}> Feature</NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink to="/testimony" className={({ isActive }) => (isActive ? "active-link" : "link" )}>Testimony</NavLink>
               </li>
             </ul>
            
