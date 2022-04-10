@@ -15,7 +15,7 @@ const Home = () => {
               <h3>Screen <span>Record & Download</span> </h3>
               <h4>
                  Thinking about screen recording? <br />
-                 You are at right place so make sure to evaluate your needs before downloading.
+                 You are at right place so make sure to evaluate your needs and use it with great feellings.
                
               </h4>
               <Link to="/record" className="home-btn">Get Started</Link>

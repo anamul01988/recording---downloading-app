@@ -36,3 +36,14 @@
       color: orange;
       transition: ease all .3s;
   }
+  @media only screen and (max-width: 1000px) {
+    .nav-responsive{
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      margin-top: 10px;
+    }
+    .nav-item{
+      margin-top: 20px;
+    }
+}
